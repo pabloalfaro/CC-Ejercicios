@@ -1,2 +1,2 @@
 # CC-Ejercicios
-Ejercicios de autoevaluación de la asignatura de CC
+Ejercicios de autoevaluación de la asignatura de Cloud Computing
