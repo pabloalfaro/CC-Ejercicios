@@ -12,7 +12,7 @@ Como se ve en la anterior imagen, lo primero que hago es ejecutar holamundo. No 
 
 ![images ps](https://github.com/pabloalfaro/CC-Ejercicios/blob/main/tema3/Capturas/Ejercicio%201/listado%20de%20dockers.png)
 
-Tras haber hecho las pruebas anteriores ejecuto la imágen de los ejecicios con el siguiente resultado:
+Tras haber hecho las pruebas anteriores ejecuto la imagen de los ejecicios con el siguiente resultado:
 
 ![pulpo](https://github.com/pabloalfaro/CC-Ejercicios/blob/main/tema3/Capturas/Ejercicio%201/im%C3%A1gen%20pulpo.png)
 
@@ -29,7 +29,7 @@ Para hacer este ejericio primero creo el archivo [Dockerfile](https://github.com
 
 `CMD ["go", "run", "holamundo.go"]`
 
-Para construir y ejecutar la imágen utilizo los comandos que se ven en la imágen de abajo:
+Para construir y ejecutar la imagen utilizo los comandos que se ven en la imagen de abajo:
 
 ![build](https://github.com/pabloalfaro/CC-Ejercicios/blob/main/tema3/Capturas/Ejercicio%202/holamundo_alpine.png)
 
@@ -38,11 +38,11 @@ Para construir y ejecutar la imágen utilizo los comandos que se ven en la imág
 
 ![Commit](https://github.com/pabloalfaro/CC-Ejercicios/blob/main/tema3/Capturas/Ejercicio%203/commit.png)
 
-Con `docker ps -l` veo el listado de los contenedores. Para crear una imagen persistente utilizo `docker commit ID nombre_que_quiera`. Al terminar compruebo que se ha creado la nueva imágen.
+Con `docker ps -l` veo el listado de los contenedores. Para crear una imagen persistente utilizo `docker commit ID nombre_que_quiera`. Al terminar compruebo que se ha creado la nueva imagen.
 
 
 ### Ejercicio 4. Examinar la estructura de capas que se forma al crear imágenes nuevas a partir de contenedores que se hayan estado ejecutando.
 
-Para hacer esto utilizo `docker history nombre_de_la_imágen`.
+Para hacer esto utilizo `docker history nombre_de_la_imagen`.
 
 ![history](https://github.com/pabloalfaro/CC-Ejercicios/blob/main/tema3/Capturas/Ejercicio%204/history.png)
