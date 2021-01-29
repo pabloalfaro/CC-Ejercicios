@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  cliente:
+    image: cliente
+    ports:
+      - 8080:8080
+    depends_on:
+      - servidor
+
+  servidor:
+    image: servidor
+    ports:
+      - 3000:3000
